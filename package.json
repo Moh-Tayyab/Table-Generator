@@ -1,0 +1,24 @@
+{
+  "name": "@moh-tayyab0342/table-generator",
+  "version": "2.4.0",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammad Tayyab",
+  "license": "MIT",
+  "description": "A TypeScript app that generates tables with custom columns and data, displaying them in the console with colorful animation.",
+  "devDependencies": {
+    "@types/chalk-animation": "^1.6.3",
+    "@types/inquirer": "^9.0.7"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.3.2"
+  }
+}
